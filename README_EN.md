@@ -10,6 +10,18 @@ NOTEYOU is a local-first Markdown desktop editor built with Tauri 2, Next.js, an
 
 It requires no account, provides no cloud synchronization, and uses no proprietary note database. Documents are stored locally as standard `.md` or `.markdown` files that can be opened with any other editor.
 
+
+## Screenshots
+
+### Dark Theme
+
+![NOTEYOU dark theme interface](/dark.jpg)
+
+### Light Theme
+
+![NOTEYOU light theme interface](/light.jpg)
+
+
 ## Key Features
 
 ### File and Folder Management
