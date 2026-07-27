@@ -2,8 +2,6 @@
 
 [中文](README.md) | [English](README_EN.md)
 
-> 开发中早期预览版本（Pre-release）
->
 > NOTEYOU 目前由个人开发者维护，功能和数据结构仍可能调整。使用预览版本前，请备份重要文档。
 
 NOTEYOU 是一款基于 Tauri 2、Next.js 和 CodeMirror 6 构建的本地优先 Markdown 桌面编辑器。

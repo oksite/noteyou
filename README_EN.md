@@ -2,8 +2,6 @@
 
 [中文](README.md) | [English](README_EN.md)
 
-> Early development preview (Pre-release)
->
 > NOTEYOU is currently maintained by an individual developer. Features and data structures may change. Back up important documents before using a preview release.
 
 NOTEYOU is a local-first Markdown desktop editor built with Tauri 2, Next.js, and CodeMirror 6.
