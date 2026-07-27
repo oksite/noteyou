@@ -100,44 +100,6 @@ Regularly backing up the complete workspace shown in the status bar is recommend
 - Preview HTML is sanitized with DOMPurify
 - No account, document uploads, or telemetry collection
 
-## Current Limitations
-
-- Prebuilt packages are currently available for Windows x64 only
-- External filesystem changes are not watched automatically; use the refresh button
-- Drag-and-drop reordering works only within the same directory and does not move files between folders
-- Full-text search and synchronized editor/preview scrolling are not yet available
-- Window size and position are not yet persisted
-
-## Roadmap
-
-- [ ] Watch external filesystem changes and refresh automatically
-- [ ] Full-text search
-- [ ] Drag files between folders
-- [ ] Synchronized editor and preview scrolling
-- [ ] Persist window size and position
-- [ ] macOS and Linux builds
-
-## Local Development
-
-The development environment requires Node.js, npm, Rust stable, the platform-specific Tauri prerequisites, and WebView2 Runtime.
-
-```powershell
-npm install
-npm run tauri dev
-```
-
-Common commands:
-
-| Command | Description |
-| --- | --- |
-| `npm run tauri dev` | Start the complete desktop development environment |
-| `npm test` | Run frontend tests |
-| `cd src-tauri && cargo test` | Run Rust tests |
-| `npm run build` | Build the static Next.js frontend |
-| `npm run tauri build` | Build the desktop application and installers |
-
-Running `npm run dev` alone does not provide local file features because they depend on Tauri IPC.
-
 ## License
 
 This project is licensed under the [Mulan Permissive Software License, Version 2](LICENSE).

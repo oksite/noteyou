@@ -100,44 +100,6 @@ NOTEYOU/DB/
 - Markdown 预览 HTML 经过 DOMPurify 清理
 - 不需要账号，不上传文档，不收集遥测数据
 
-## 当前限制
-
-- 仅提供 Windows x64 预构建版本
-- 文件树不会自动监听外部文件变化，需要手动刷新
-- 拖拽排序仅限同一目录，不会把文件移动到其他文件夹
-- 暂不支持全文搜索和编辑/预览滚动同步
-- 窗口大小和位置暂未持久化
-
-## 路线图
-
-- [ ] 文件树监听外部变化并自动刷新
-- [ ] 全文搜索
-- [ ] 跨文件夹拖拽移动文件
-- [ ] 编辑与预览滚动同步
-- [ ] 窗口大小和位置持久化
-- [ ] macOS 和 Linux 构建
-
-## 本地开发
-
-需要 Node.js、npm、Rust stable、Tauri 对应平台依赖和 WebView2 Runtime。
-
-```powershell
-npm install
-npm run tauri dev
-```
-
-常用命令：
-
-| 命令 | 说明 |
-| --- | --- |
-| `npm run tauri dev` | 启动完整桌面开发环境 |
-| `npm test` | 运行前端测试 |
-| `cd src-tauri && cargo test` | 运行 Rust 测试 |
-| `npm run build` | 构建 Next.js 静态前端 |
-| `npm run tauri build` | 构建桌面程序和安装包 |
-
-仅运行 `npm run dev` 时无法使用依赖 Tauri IPC 的本地文件功能。
-
 ## 许可证
 
 本项目采用[木兰宽松许可证，第 2 版](LICENSE)。
